@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+// import { ExternalLink, Github } from 'lucide-react';
 
 export const Projects = () => {
   const containerVariants = {
@@ -22,9 +22,9 @@ export const Projects = () => {
     },
   };
 
-  const projects = [
+  // const projects = [
     
-  ];
+  // ];
 
   return (
     <div className="min-h-screen px-6 pt-32 pb-20">
@@ -43,7 +43,7 @@ export const Projects = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project, index) => (
+          {/* {projects.map((project, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
@@ -98,7 +98,7 @@ export const Projects = () => {
                 </div>
               </div>
             </motion.div>
-          ))}
+          ))} */}
         </div>
       </motion.div>
     </div>

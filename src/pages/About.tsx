@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Award, BookOpen, Briefcase, GraduationCap } from 'lucide-react';
+import {  BookOpen } from 'lucide-react';
 
 export const About = () => {
   const containerVariants = {
