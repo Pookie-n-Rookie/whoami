@@ -91,7 +91,7 @@ export const About = () => {
               className="aspect-square bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-white/10 flex items-center justify-center relative"
             >
               <img
-                src="src/pages/TOPSECRET/WhatsApp Image 2025-10-26 at 12.39.31 PM (1).jpeg"
+                src="src\pages\TOPSECRET\start.jpeg"
                 alt="My Photo"
                 className="w-full h-full object-cover rounded-2xl"
               />

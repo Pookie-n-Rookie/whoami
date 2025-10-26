@@ -159,13 +159,11 @@ export const Home = () => {
               className="absolute inset-9 bg-gradient-to-br  from-white/10 to-transparent rounded-full flex items-center justify-center overflow-hidden"
             >
               <img
-                src="src\pages\TOPSECRET\WhatsApp Image 2025-10-26 at 12.58.59 PM.jpeg"
+                src="src\pages\TOPSECRET\start2.jpeg"
                 alt="My Photo"
                 className="w-full h-full object-cover rounded-full"
               />
 </motion.div>
-
-
 
               {[...Array(3)].map((_, i) => (
                 <motion.div
