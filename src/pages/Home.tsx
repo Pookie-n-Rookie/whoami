@@ -51,7 +51,7 @@ export const Home = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                AI/LLM Operations Engineer
+                AIOPS & LLMOPS ENTHUSIAST
               </motion.p>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
                 <motion.span
@@ -150,18 +150,22 @@ export const Home = () => {
                 initial={{ scale: 0, rotate: 180 }}
                 animate={{ scale: 1, rotate: 0 }}
                 transition={{ duration: 1, delay: 0.7, ease: 'easeOut' }}
-                className="absolute inset-8 border border-white/10 rounded-full"
+                className="absolute inset-9 border border-white/10 rounded-full"
               />
               <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 1, delay: 0.9, ease: 'easeOut' }}
-                className="absolute inset-16 bg-gradient-to-br from-white/10 to-transparent rounded-full flex items-center justify-center overflow-hidden"
-              >
-                <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-full flex items-center justify-center text-6xl font-bold text-white/20">
-                  PHOTO
-                </div>
-              </motion.div>
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 1, delay: 0.9, ease: 'easeOut' }}
+              className="absolute inset-9 bg-gradient-to-br  from-white/10 to-transparent rounded-full flex items-center justify-center overflow-hidden"
+            >
+              <img
+                src="src\pages\TOPSECRET\WhatsApp Image 2025-10-26 at 12.58.59 PM.jpeg"
+                alt="My Photo"
+                className="w-full h-full object-cover rounded-full"
+              />
+</motion.div>
+
+
 
               {[...Array(3)].map((_, i) => (
                 <motion.div

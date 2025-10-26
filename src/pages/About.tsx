@@ -23,31 +23,50 @@ export const About = () => {
   };
 
   const skills = [
-    'Python', 'TensorFlow', 'PyTorch', 'LangChain', 'Vector Databases',
-    'Kubernetes', 'Docker', 'MLflow', 'Weights & Biases', 'AWS SageMaker',
-    'Azure ML', 'OpenAI API', 'Hugging Face', 'CI/CD', 'Monitoring'
-  ];
+  // Programming Languages
+  'C', 'C++', 'Python', 'Java', 'SQL',
 
-  const experience = [
-    {
-      icon: Briefcase,
-      title: 'Senior LLMOps Engineer',
-      period: '2023 - Present',
-      description: 'Leading AI infrastructure deployment and LLM optimization'
-    },
-    {
-      icon: GraduationCap,
-      title: 'ML Engineer',
-      period: '2021 - 2023',
-      description: 'Built scalable machine learning pipelines and model serving infrastructure'
-    },
-    {
-      icon: BookOpen,
-      title: 'Research Assistant',
-      period: '2019 - 2021',
-      description: 'Conducted research in natural language processing and deep learning'
-    }
-  ];
+  // Databases & Vector Stores
+  'MySQL', 'PostgreSQL', 'FAISS', 'ChromaDB', 'Vector Databases',
+
+  // Machine Learning & AI Frameworks
+  'TensorFlow', 'PyTorch', 'LangChain', 'LangGraph', 'Crew AI', 'FastAPI', 'Streamlit',
+
+  // Tools & MLOps
+  'Kubernetes', 'Docker', 'Git',
+
+  // APIs & Libraries
+  'OpenAI API', 'Hugging Face', 'Pandas', 'NumPy', 'Scikit-learn', 'NLTK', 'Transformers', 'Matplotlib', 'Seaborn',
+
+  // CI/CD & Monitoring
+  'Jenkins', 'SonarQube', 'CI/CD', 'Monitoring'
+];
+
+
+ const experience = [
+  {
+    icon: BookOpen,
+    title: 'Research Intern | Jadavpur University | Kolkata, India',
+    period: 'Jan 2025 – May 2025',
+    location: 'On-site',
+    description: `
+  Co-authored and contributed to a collaborative multi-agent AI research project, engineering a modular orchestration
+  pipeline using CrewAI for context-aware question answering with LLM-driven synthesis, applying machine-learning
+  principles for adaptive response generation.
+
+  Integrated the Tavily Search API for real-time, AI-assisted query-aware web retrieval and leveraged Trafilatura for
+  content extraction and sanitization in machine-learning pipelines.
+
+  Co-developed specialized agents for query reformulation, URL scoring, context summarization, and answer
+  generation using a tool-agent architecture to enhance AI-driven information retrieval.
+
+  Co-authored a comprehensive RAG evaluation framework quantifying response accuracy, recency, groundedness,
+  and latency, incorporating machine-learning-based metrics to optimize time-sensitive query performance.
+`
+  }
+];
+
+
 
   return (
     <div className="min-h-screen px-6 pt-32 pb-20">
@@ -69,10 +88,18 @@ export const About = () => {
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="aspect-square bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-white/10 flex items-center justify-center"
+              className="aspect-square bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-white/10 flex items-center justify-center relative"
             >
-              <div className="text-4xl font-bold text-white/20">YOUR PHOTO</div>
+              <img
+                src="src/pages/TOPSECRET/WhatsApp Image 2025-10-26 at 12.39.31 PM (1).jpeg"
+                alt="My Photo"
+                className="w-full h-full object-cover rounded-2xl"
+              />
+              <div className="absolute inset-0 bg-black/20 flex items-center justify-center text-white/30 text-4xl font-bold">
+          
+              </div>
             </motion.div>
+
           </motion.div>
 
           <motion.div
@@ -83,28 +110,19 @@ export const About = () => {
               variants={itemVariants}
               className="text-gray-300 text-lg leading-relaxed"
             >
-              I'm a passionate AI/LLM Operations Engineer specializing in building
-              and deploying large language models at scale. With a deep understanding
-              of both machine learning theory and production systems, I bridge the
-              gap between cutting-edge AI research and real-world applications.
+              I'm a passionate AI & LLM Operations Engineer specializing in LLMOps, AI Ops, and Generative AI. I excel at building, optimizing, and deploying large language models at scale, bridging the gap between advanced AI research and real-world applications. With expertise in machine learning pipelines, model orchestration, and AI-driven automation, I design systems that are efficient, scalable, and intelligent, enabling organizations to harness the full potential of next-generation AI technologies.
             </motion.p>
             <motion.p
               variants={itemVariants}
               className="text-gray-400 leading-relaxed"
             >
-              My expertise spans the entire ML lifecycle, from model training and
-              fine-tuning to deployment, monitoring, and optimization. I'm committed
-              to building robust, scalable infrastructure that enables AI to deliver
-              real value in production environments.
+              My expertise spans the entire machine learning and LLM lifecycle, from model training and fine-tuning to deployment, monitoring, and optimization. I am dedicated to building robust, scalable AI infrastructure that ensures models operate efficiently and reliably in production, enabling organizations to extract real-world value from advanced AI systems.
             </motion.p>
             <motion.div
               variants={itemVariants}
               className="flex gap-4 pt-4"
             >
-              <div className="flex items-center gap-2 text-gray-400">
-                <Award className="w-5 h-5" />
-                <span>5+ Years Experience</span>
-              </div>
+            
             </motion.div>
           </motion.div>
         </div>

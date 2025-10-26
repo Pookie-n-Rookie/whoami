@@ -23,42 +23,7 @@ export const Projects = () => {
   };
 
   const projects = [
-    {
-      title: 'Enterprise LLM Platform',
-      description: 'Built a scalable platform for deploying and managing multiple LLM models with automatic scaling, monitoring, and cost optimization.',
-      tech: ['Python', 'Kubernetes', 'Ray', 'FastAPI', 'PostgreSQL'],
-      category: 'LLMOps'
-    },
-    {
-      title: 'Real-time ML Pipeline',
-      description: 'Developed an end-to-end ML pipeline with real-time feature engineering, model serving, and monitoring for fraud detection.',
-      tech: ['Apache Kafka', 'MLflow', 'TensorFlow', 'Docker', 'Prometheus'],
-      category: 'MLOps'
-    },
-    {
-      title: 'AI Model Optimization Framework',
-      description: 'Created a framework for quantization and optimization of large language models, reducing inference costs by 70%.',
-      tech: ['PyTorch', 'ONNX', 'TensorRT', 'Triton', 'AWS'],
-      category: 'Optimization'
-    },
-    {
-      title: 'Vector Database Solution',
-      description: 'Implemented a high-performance vector search system for semantic similarity matching in production RAG applications.',
-      tech: ['Pinecone', 'LangChain', 'OpenAI', 'Redis', 'FastAPI'],
-      category: 'AI Infrastructure'
-    },
-    {
-      title: 'Multi-Agent System',
-      description: 'Architected a multi-agent AI system with autonomous task delegation and collaborative problem-solving capabilities.',
-      tech: ['LangGraph', 'AutoGen', 'GPT-4', 'Anthropic', 'MongoDB'],
-      category: 'AI Agents'
-    },
-    {
-      title: 'ML Monitoring Dashboard',
-      description: 'Built comprehensive monitoring and observability stack for ML models with drift detection and automated alerting.',
-      tech: ['Grafana', 'Prometheus', 'Evidently', 'Airflow', 'BigQuery'],
-      category: 'Monitoring'
-    }
+    
   ];
 
   return (

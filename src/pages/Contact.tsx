@@ -26,15 +26,14 @@ export const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'your.email@example.com', href: 'mailto:your.email@example.com' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: null }
+    { icon: Mail, label: 'Email', value: 'banerjeeswarnendu6@gmail.com', href: 'mailto:banerjeeswarnendu6@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+91 9564027954', href: 'tel:+91 9564027954' },
+    { icon: MapPin, label: 'Location', value: 'Kolkata, India', href: null }
   ];
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: 'https://github.com' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
-    { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' }
+    { icon: Github, label: 'GitHub', href: 'https://github.com/Pookie-n-Rookie' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/swarnendu-banerjee-78aa49298/' },
   ];
 
   return (
