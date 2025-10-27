@@ -159,7 +159,7 @@ export const Home = () => {
               className="absolute inset-9 bg-gradient-to-br  from-white/10 to-transparent rounded-full flex items-center justify-center overflow-hidden"
             >
               <img
-                src="src\pages\TOPSECRET\start2.jpeg"
+                src="TOPSECRET/start2.jpeg"
                 alt="My Photo"
                 className="w-full h-full object-cover rounded-full"
               />
